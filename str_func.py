@@ -1,6 +1,7 @@
 def get_upper_word(word):
-    """Функция, которая принимает на вход строку и возвращает ее со всеми заглавными буквами."""
     return word.upper()
 
-def function():
-    pass
+
+def get_capitalize_word(word):
+    """Функция, которая делает заглавными первые буквы каждого слова в строке."""
+    return word.capitalize()
